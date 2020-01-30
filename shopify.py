@@ -95,7 +95,7 @@ def get_skus():																														#return skus list
 
 	new_skus = []
 
-	skus_files = open('shopfiy_link.txt').readlines()																				#Open file and read
+	skus_files = open('shopify_link.txt').readlines()																				#Open file and read
 
 	for i in range(len(skus_files)):					
 
