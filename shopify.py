@@ -243,17 +243,17 @@ def check_restock(product_json,available_sizes,purl):
 
 def main():
 	while True:
-		try:
-			skus = get_skus()																											#Get Skus List
-				
-			for i in range(len(skus)):					
 
-				time.sleep(2)
+		skus = get_skus()																											#Get Skus List
 
-				(threading.Thread(target=task, args=(skus[i],))).start()	
-						
-		except:
+		for i in range(len(skus)):					
 
-			time.sleep(2)		
+			time.sleep(2)
+
+			(threading.Thread(target=task, args=(skus[i],))).start()	
+
+
+
+		time.sleep(2)		
 		
 main()
