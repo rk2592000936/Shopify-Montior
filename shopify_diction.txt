@@ -1,0 +1,1 @@
+{'https://kith.com/collections/mens-footwear/products/converse-primaloft-chuck-70-high-rose-maroon-naples-yellow-egret': ['6', '7', '8', '8.5', '9', '9.5', '10', '10.5', '11', '12']}
